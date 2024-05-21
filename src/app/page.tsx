@@ -2,20 +2,23 @@ import LeftPanel from "@/components/left_panel";
 import SocialLinks from "@/components/social_links";
 import About from "@/components/about";
 import WorkSection from "@/components/work_sec";
-import Services from "@/components/services";
+import Experience from "@/components/experience";
+import Education from "@/components/education";
+import Skills from "@/components/skills";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
-    <div className="relative">
-      {/* navbar */}
+    <div className="relative bg-black">
       <LeftPanel />
-      {/* body */}
-      <section className="about w-[50%] mx-auto my-10">
+      <section className="about w-[50%] mx-auto py-12">
         <About />
+        <Skills />
+        <Education />
+        <Experience />
         <WorkSection />
-        <Services/>
+        <Contact />
       </section>
-      {/* links */}
       <SocialLinks />
     </div>
   );
