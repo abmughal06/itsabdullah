@@ -25,36 +25,92 @@ export const data = {
   portfolioData: [
     {
       title: "Casarancha",
-      img: "/images/2.jpg",
+      img: "/images/portfolio-pics/casarancha.jpg",
       descripion: "",
       skills:
         "FLUTTER | FIREBASE | REST API'S | LOCALIZATTION | CLOUD FUNCTIONS",
     },
     {
       title: "Yo Elijo Podcasts",
-      img: "/images/3.jpg",
+      img: "/images/portfolio-pics/podcast.jpg",
       descripion: "",
       skills:
         "FLUTTER | FIREBASE | REST API'S | PAYMENT GATEWAY | YOUTUBE DATA API",
     },
     {
       title: "dMechanics",
-      img: "/images/4.jpg",
+      img: "/images/portfolio-pics/dmechanic.jpg",
       descripion: "",
       skills:
         "FLUTTER | FIREBASE | REST API'S | LOCALIZATTION | GOOGLE MAPS API | GEOCODING | GEOLOCATION",
     },
     {
       title: "Al Rasheed Management System",
-      img: "/images/6.jpg",
+      img: "/images/portfolio-pics/alrasheed.jpg",
       descripion: "",
       skills:
         "FLUTTER | NODEJS | REST API'S | MONGODB | CLOUD FUNCTIONS | VERCEL",
     },
+    {
+      title: "2Fliegen",
+      img: "/images/portfolio-pics/2fliegen.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | FIREBASE | REST API'S | LOCALIZATTION | CLOUD FUNCTIONS",
+    },
+    {
+      title: "Look4City",
+      img: "/images/portfolio-pics/look4city.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | FIREBASE | REST API'S | PAYMENT GATEWAY | YOUTUBE DATA API",
+    },
+    {
+      title: "F-G-T Gmbh Mobile App",
+      img: "/images/portfolio-pics/fgt1.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | FIREBASE | REST API'S | LOCALIZATTION | GOOGLE MAPS API | GEOCODING | GEOLOCATION",
+    },
+    {
+      title: "F-G-T GmbH Admin Panel",
+      img: "/images/portfolio-pics/fgt2.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | NODEJS | REST API'S | MONGODB | CLOUD FUNCTIONS | VERCEL",
+    },
+    {
+      title: "Senior Wellness",
+      img: "/images/portfolio-pics/senior-wellness.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | NODEJS | REST API'S | MONGODB | CLOUD FUNCTIONS | VERCEL",
+    },
+    {
+      title: "Wallet App",
+      img: "/images/portfolio-pics/finance.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | FIREBASE | REST API'S | LOCALIZATTION | CLOUD FUNCTIONS",
+    },
+    {
+      title: "OOM",
+      img: "/images/portfolio-pics/oom.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | FIREBASE | REST API'S | PAYMENT GATEWAY | YOUTUBE DATA API",
+    },
+    {
+      title: "E-Learining App",
+      img: "/images/portfolio-pics/course.jpg",
+      descripion: "",
+      skills:
+        "FLUTTER | FIREBASE | REST API'S | LOCALIZATTION | GOOGLE MAPS API | GEOCODING | GEOLOCATION",
+    },
   ],
   experience: [
     {
-      job_title:"Full Stack Developer",
+      job_title: "Full Stack Developer",
       company: "Wolf Stack",
       time_spend: "November 2022 - Present",
       description: [
@@ -66,7 +122,7 @@ export const data = {
       ],
     },
     {
-      job_title:"Flutter Developer",
+      job_title: "Flutter Developer",
       company: "Techdot IT",
       time_spend: "August 2021 - November 2022",
       description: [
@@ -78,7 +134,7 @@ export const data = {
       ],
     },
     {
-      job_title:"Mobile & Web Developer",
+      job_title: "Mobile & Web Developer",
       company: "Freelancer",
       time_spend: "June 2019 - Present",
       description: [
@@ -90,19 +146,19 @@ export const data = {
       ],
     },
   ],
-  skills_logos:[
+  skills_logos: [
     "/images/skills-logos/1.svg",
     "/images/skills-logos/2.svg",
     "/images/skills-logos/3.svg",
     "/images/skills-logos/4.svg",
-    "/images/skills-logos/5.svg",
-    "/images/skills-logos/6.svg",
-    "/images/skills-logos/7.svg",
-    "/images/skills-logos/8.svg",
+    "/images/skills-logos/html.png",
+    "/images/skills-logos/css.png",
+    "/images/skills-logos/javascript.png",
     "/images/skills-logos/9.svg",
+    "/images/skills-logos/tailwind.png",
     "/images/skills-logos/10.svg",
     "/images/skills-logos/11.svg",
-    "/images/skills-logos/12.svg",
+    "/images/skills-logos/mongo.png",
     "/images/skills-logos/13.svg",
     "/images/skills-logos/14.svg",
   ],
