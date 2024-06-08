@@ -1,9 +1,13 @@
 import Image from "next/image";
 import { data } from "../constants/data";
+import Link from "next/link";
 
 export default function About() {
   return (
-    <section className="bg-foreground rounded-lg p-12 flex text-secondary">
+    <section
+      id="profile"
+      className="bg-foreground rounded-lg p-12 flex text-secondary"
+    >
       <div className="w-1/2 mr-12">
         <div className="flex flex-row justify-between items-end mt-2 rouned">
           {/* <FaCode className=" text-clrManhattan h-8 w-8"/> */}
@@ -36,12 +40,16 @@ export default function About() {
         </h1>
         <div className="h-[0.5px] w-full bg-clrWhite opacity-30 my-7"></div>
         <div className="flex items-center">
-          <button className="bg-primary py-2 px-4 text-sm rounded-lg cursor-pointer mr-3">
-            WORK
-          </button>
-          <button className="border border-clrManhattan text-sm border-opactity-30 py-2 px-4 rounded-lg cursor-pointer">
-            DOWNLOAD RESUME
-          </button>
+          <Link href={"/#work"}>
+            <button className="bg-primary py-2 px-4 text-sm rounded-lg cursor-pointer mr-3">
+              WORK
+            </button>
+          </Link>
+          <Link target="_blank" href="/images/resume.pdf">
+            <button className="border border-clrManhattan text-sm border-opactity-30 py-2 px-4 rounded-lg cursor-pointer">
+              DOWNLOAD RESUME
+            </button>
+          </Link>
         </div>
         <div className="border border-clrWhite border-opacity-10 mt-7 rounded-full px-4 py-2 flex items-center">
           <p className="mr-3">Available for work</p>

@@ -150,7 +150,7 @@ export const data = {
     "/images/skills-logos/1.svg",
     "/images/skills-logos/2.svg",
     "/images/skills-logos/3.svg",
-    "/images/skills-logos/4.svg",
+    "/images/skills-logos/firebase-bg.png",
     "/images/skills-logos/html.png",
     "/images/skills-logos/css.png",
     "/images/skills-logos/javascript.png",
@@ -161,5 +161,19 @@ export const data = {
     "/images/skills-logos/mongo.png",
     "/images/skills-logos/13.svg",
     "/images/skills-logos/14.svg",
+  ],
+  icon:[
+    "/images/icons/user.png",
+    "/images/icons/education.png",
+    "/images/icons/experience.png",
+    "/images/icons/work.png",
+    "/images/icons/contact.png",
+  ],
+  sections:[
+    '#profile',
+    "#education",
+    "#experience",
+    "#work",
+    "#contact",
   ],
 };

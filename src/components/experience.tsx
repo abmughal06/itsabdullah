@@ -6,15 +6,13 @@ import {
 } from "@/components/ui/accordion";
 import { data } from "@/constants/data";
 
-import { FaCode } from "react-icons/fa6";
-
 export default function Experience() {
   return (
-    <section>
+    <section id="experience">
       <div className="flex flex-col gap-3 bg-foreground rounded-lg p-8 mt-1">
         <div className="flex flex-row justify-between">
           <h3 className="font-normal text-xl text-primary">EXPERIENCE</h3>
-          <FaCode className="text-primary" />
+          {/* <FaCode className="text-primary" /> */}
         </div>
         <div>
           <Accordion
