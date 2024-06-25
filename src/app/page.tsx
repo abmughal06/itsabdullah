@@ -1,5 +1,5 @@
 import LeftPanel from "@/components/left_panel";
-import SocialLinks from "@/components/social_links";
+// import SocialLinks from "@/components/social_links";
 import About from "@/components/about";
 import WorkSection from "@/components/work_sec";
 import Experience from "@/components/experience";
@@ -9,9 +9,9 @@ import Contact from "@/components/contact";
 
 export default function Home() {
   return (
-    <div className="relative bg-black">
+    <div className="w-[60%] mx-auto bg-black flex flex-row">
       <LeftPanel />
-      <section className="about w-[50%] mx-auto py-12">
+      <section className="w-[85%] mx-auto py-4">
         <About />
         <Skills />
         <Education />
@@ -19,7 +19,7 @@ export default function Home() {
         <WorkSection />
         <Contact />
       </section>
-      <SocialLinks />
+      {/* <SocialLinks /> */}
     </div>
   );
 }
