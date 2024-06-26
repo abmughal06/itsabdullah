@@ -6,9 +6,9 @@ export default function About() {
   return (
     <section
       id="profile"
-      className="bg-foreground rounded-lg p-12 flex text-secondary"
+      className="bg-foreground rounded-lg p-3 md:p-12 flex flex-col md:flex-row text-secondary"
     >
-      <div className="w-1/2 mr-12">
+      <div className="w-full md:w-1/2 md:mr-12">
         <div className="flex flex-row justify-between items-end mt-2 rouned">
           {/* <FaCode className=" text-clrManhattan h-8 w-8"/> */}
           <Image
@@ -28,7 +28,7 @@ export default function About() {
       </div>
       <div
         className="
-          w-1/2"
+          w-full md:w-1/2"
       >
         <h1 className="text-2xl text-secondary font-extralight font-sans pt-2">
           Hello!,{" "}
@@ -39,19 +39,19 @@ export default function About() {
           <span className="font-normal text-primary">precision</span>.
         </h1>
         <div className="h-[0.5px] w-full bg-clrWhite opacity-30 my-7"></div>
-        <div className="flex items-center">
+        <div className="flex flex-col gap-3 md:flex-row items-start">
           <Link href={"/#work"}>
-            <button className="bg-primary py-2 px-4 text-sm rounded-lg cursor-pointer mr-3">
+            <button className="bg-primary py-2 px-4 text-xs font-semibold rounded-lg cursor-pointer mr-3">
               WORK
             </button>
           </Link>
           <Link target="_blank" href="/images/resume.pdf">
-            <button className="border border-clrManhattan text-sm border-opactity-30 py-2 px-4 rounded-lg cursor-pointer">
+            <button className="border border-clrManhattan text-xs font-semibold border-opactity-30 py-2 px-4 rounded-lg cursor-pointer">
               DOWNLOAD RESUME
             </button>
           </Link>
         </div>
-        <div className="border border-clrWhite border-opacity-10 mt-7 rounded-full px-4 py-2 flex items-center">
+        <div className="border border-clrWhite border-opacity-10 mt-7 rounded-full px-4 py-2 hidden md:flex items-center">
           <p className="mr-3">Available for work</p>
           <div className="rounded-full h-[10px] w-[10px] bg-green-500"></div>
         </div>

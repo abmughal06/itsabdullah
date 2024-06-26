@@ -3,8 +3,8 @@ export const data = {
   title: "Abdullah Bin Latif",
   description:
     "Hello!, I'm Abdullah, an Expert Flutter & Web Developer bringing ideas to life with innovation, creativity, and precision.",
-  slogan: "I Love building applications in Flutter & React",
-  desc: "Welcome to my portfolio! I am a skilled and passionate developer specializing in Flutter and React. With a strong background in mobile and web development, I strive to create exceptional digital experiences that seamlessly blend functionality, aesthetics, and user engagement.",
+  slogan: "I Love creating things living in digital world!.",
+  desc: "Welcome to my portfolio! I am a skilled and passionate developer specializing in Flutter and NextJS. With a strong background in mobile and web development, I strive to create exceptional digital experiences that seamlessly blend functionality, aesthetics, and user engagement.",
   contact_line:
     "Want to connect with me, you can follow my social handles and email me for more queries.",
   aboutP1:
@@ -154,6 +154,24 @@ export const data = {
     "/images/skills-logos/html.png",
     "/images/skills-logos/css.png",
     "/images/skills-logos/javascript.png",
+    "/images/skills-logos/9.svg",
+    "/images/skills-logos/tailwind.png",
+    "/images/skills-logos/10.svg",
+    "/images/skills-logos/11.svg",
+    "/images/skills-logos/mongo.png",
+    "/images/skills-logos/13.svg",
+    "/images/skills-logos/14.svg",
+  ],
+  skills_logos_1_part: [
+    "/images/skills-logos/1.svg",
+    "/images/skills-logos/2.svg",
+    "/images/skills-logos/3.svg",
+    "/images/skills-logos/firebase-bg.png",
+    "/images/skills-logos/html.png",
+    "/images/skills-logos/css.png",
+    "/images/skills-logos/javascript.png",
+  ],
+  skills_logos_2nd_Part: [
     "/images/skills-logos/9.svg",
     "/images/skills-logos/tailwind.png",
     "/images/skills-logos/10.svg",

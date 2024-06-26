@@ -16,6 +16,11 @@ const config = {
       padding: "2rem",
       screens: {
         "2xl": "1400px",
+        "xl":"1280px",
+        "lg":"1080px",
+        "md":"720px",
+        "sm":"480px",
+        "xs":"320px"
       },
     },
     extend: {
@@ -71,12 +76,17 @@ const config = {
         "loop-scroll":{
           from:{transform: "translateX(0)"},
           to:{transform: "translateX(-100%)"},
-        }
+        },
+        'slide-left': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "loop-scroll":"loop-scroll 30s linear infinite"
+        "loop-scroll":"loop-scroll 8s linear infinite",
+        'slide-left-infinite': 'slide-left 15s linear infinite'
       },
     },
   },

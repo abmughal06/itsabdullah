@@ -1,3 +1,5 @@
+"use client"
+
 import { FaCode } from "react-icons/fa6";
 import Image from "next/image";
 import { data } from "@/constants/data";
@@ -40,13 +42,22 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 export function CarouselDemo() {
   return (
-    <Carousel className="w-[90%] text-white">
+    <Carousel
+      plugins={[
+        Autoplay({
+          delay: 2000,
+          stopOnInteraction: true ,
+        }),
+      ]}
+      className="w-[90%] text-white"
+    >
       <CarouselContent>
         {data.portfolioData.map((portfolio, index) => (
-          <CarouselItem key={index} className="basis-1/2">
+          <CarouselItem key={index} className="basis-1/1 lg:basis-1/2">
             <Card className="bg-black border-none">
               <div>
                 <Image
