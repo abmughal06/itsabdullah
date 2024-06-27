@@ -1,12 +1,10 @@
 "use client";
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
-import Image from "next/image";
 import { Button } from "./ui/button";
 import { data } from "@/constants/data";
 import Link from "next/link";
 import { FaGithub, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
-
 
 export default function Contact() {
   return (
@@ -18,21 +16,38 @@ export default function Contact() {
         </div>
         <div className="flex flex-col lg:flex-row gap-5 w-full items-start justify-between">
           <div className="w-full lg:w-1/2 flex flex-col gap-5 items-start">
-            <h3 className="text-2xl">Have any <span className="text-primary">Queries</span>?</h3>
+            <h3 className="text-2xl">
+              Have any <span className="text-primary">Queries</span>?
+            </h3>
 
-            <h4 className="text-lg font-semibold">Or a project to discuss. i&apos;ll convert your thoughts into reality...</h4>
+            <h4 className="text-lg font-semibold">
+              Or a project to discuss. i&apos;ll convert your thoughts into
+              reality...
+            </h4>
 
             <h4>Follow me on my social handles...</h4>
 
             <div className="flex flex-row gap-5 justify-start text-primary text-2xl">
-              <Link href={data.socialLinks.linkedin} target="_blank">
-                  <FaLinkedinIn/>
+              <Link
+                href={data.socialLinks.linkedin}
+                target="_blank"
+                className="hover:scale-110 hover:text-white"
+              >
+                <FaLinkedinIn />
               </Link>
-              <Link href={data.socialLinks.github} target="_blank">
-                  <FaGithub/>
+              <Link
+                href={data.socialLinks.github}
+                target="_blank"
+                className="hover:scale-110 hover:text-white"
+              >
+                <FaGithub />
               </Link>
-              <Link href={data.socialLinks.instagram} target="_blank">
-                  <FaInstagram/>
+              <Link
+                href={data.socialLinks.instagram}
+                target="_blank"
+                className="hover:scale-110 hover:text-white"
+              >
+                <FaInstagram />
               </Link>
             </div>
           </div>
